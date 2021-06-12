@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { Component, Vue, Emit } from 'vue-property-decorator'
-import { Task } from '@/types/task'
+import { Task } from '@/types/general/task'
 
 @Component({
   name: 'TodoForm'

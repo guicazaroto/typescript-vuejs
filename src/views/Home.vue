@@ -7,11 +7,10 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import TodoForm from '@/components/TodoForm.vue'
-import { mapState, mapActions } from 'vuex'
 import { namespace } from 'vuex-class'
-import { Task } from '@/types/task'
+import { Task } from '@/types/general/task'
 
-const taskModule = namespace('task')
+const taskModule = namespace('tasks')
 
 @Component({
   components: {
