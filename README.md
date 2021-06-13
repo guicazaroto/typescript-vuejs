@@ -1,19 +1,9 @@
-# app
+# VueJs With Typescript
 
-## Project setup
-```
-yarn install
-```
+This project have some examples of how to use typescript with VueJs
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Libs reference
+- (Vue Property Decorator)[https://github.com/kaorun343/vue-property-decorator]
+- (Vuex Class)[https://github.com/ktsn/vuex-class]
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
