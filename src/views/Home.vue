@@ -1,20 +1,23 @@
 <template>
   <div>
     <TodoForm @add-task="addTask" />
+    <TodoList :tasks="getTasks" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import TodoForm from '@/components/TodoForm.vue'
 import { namespace } from 'vuex-class'
 import { Task } from '@/types/general/task'
+import TodoForm from '@/components/TodoForm.vue'
+import TodoList from '@/components/TodoList.vue'
 
 const taskModule = namespace('tasks')
 
 @Component({
   components: {
-    TodoForm
+    TodoForm,
+    TodoList
   },
 })
 export default class Home extends Vue {
